@@ -4,11 +4,15 @@
 I created this repository to document my studies and progress in SQL. It contains exercises, examples, and notes I took while learning.
 
 ## Repository Structure
+```text
 sql-studies/
 ├── database/
 │   └── create-databases.sql
 └── 01-basics/
+    ├── select.sql
+    ├── where.sql
     └── logical-operators.sql
+```
 
 ## Topics Studied
 - SELECT Statement 
