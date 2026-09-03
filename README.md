@@ -12,6 +12,9 @@ sql-studies/
     ├── select.sql
     ├── where.sql
     └── logical-operators.sql
+    └── in.sql
+    └── between.sql
+    └── like.sql
 ```
 
 ## Topics Studied
@@ -25,3 +28,6 @@ sql-studies/
   - NOT
   - Combining logical operators
   - Parentheses and condition grouping
+  - IN
+  - BETWEEN
+  - LIKE
