@@ -4,7 +4,7 @@
 
 <p align="center">Scripts de estudo para criação de bases, projeções e filtros em bancos relacionais.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="SQL · Consultas · Estudos" width="72%"></p>
+<p align="center"><img src="assets/docs/tags.svg" alt="SQL · Consultas · Estudos" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
@@ -16,11 +16,12 @@
 
 ![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-| Área | O que você encontra | Acesso direto |
-|---|---|---|
-| **Base de dados** | Script para preparar os dados dos exercícios. | [Abrir base de dados →](database/create-databases.sql) |
-| **Seleção** | Consultas com SELECT. | [Abrir seleção →](01-basics/select.sql) |
-| **Condições** | Consultas com filtragem de registros. | [Abrir condições →](01-basics/where.sql) |
+<table width="100%">
+<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
+<tr><td><strong>Base de dados</strong></td><td>Script para preparar os dados dos exercícios.</td><td><a href="database/create-databases.sql">Abrir base de dados →</a></td></tr>
+<tr><td><strong>Seleção</strong></td><td>Consultas com SELECT.</td><td><a href="01-basics/select.sql">Abrir seleção →</a></td></tr>
+<tr><td><strong>Condições</strong></td><td>Consultas com filtragem de registros.</td><td><a href="01-basics/where.sql">Abrir condições →</a></td></tr>
+</table>
 
 <a id="visão-geral"></a>
 
