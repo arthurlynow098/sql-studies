@@ -4,21 +4,33 @@
 
 <p align="center">Scripts de estudo para criação de bases, projeções e filtros em bancos relacionais.</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/SQL-C52E36?style=flat-square" alt="SQL">
-  <img src="https://img.shields.io/badge/Consultas-24272E?style=flat-square" alt="Consultas">
-  <img src="https://img.shields.io/badge/Estudos-24272E?style=flat-square" alt="Estudos">
-</p>
+<p align="center"><img src="assets/docs/tags.svg" alt="SQL · Consultas · Estudos" width="72%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
 ---
 
-## Visão geral
+<a id="explore-o-projeto"></a>
+
+![Explore o projeto](assets/docs/section-01.svg)
+
+![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
+
+| Área | O que você encontra | Acesso direto |
+|---|---|---|
+| **Base de dados** | Script para preparar os dados dos exercícios. | [Abrir base de dados →](database/create-databases.sql) |
+| **Seleção** | Consultas com SELECT. | [Abrir seleção →](01-basics/select.sql) |
+| **Condições** | Consultas com filtragem de registros. | [Abrir condições →](01-basics/where.sql) |
+
+<a id="visão-geral"></a>
+
+![Visão geral](assets/docs/section-02.svg)
 
 O repositório **SQL Studies** reúne exercícios práticos e scripts modulares criados para consolidar os fundamentos de consultas em bancos de dados relacionais. Cada operador ou cláusula possui seu próprio arquivo .sql, facilitando a revisão rápida de sintaxe, precedência de operadores e filtragem de registros.
 
-## Principais tópicos e scripts
+<a id="principais-tópicos-e-scripts"></a>
+
+![Principais tópicos e scripts](assets/docs/section-03.svg)
 
 | Script | Conceito praticado |
 |---|---|
@@ -48,7 +60,7 @@ flowchart LR
 ```text
 sql-studies/
 ├── assets/
-│   └── project-animal.png          Emblema do projeto
+│   └── banner-v2.png               Banner do projeto
 ├── database/
 │   └── create-databases.sql        Criação das tabelas e dados de exemplo
 ├── 01-basics/
@@ -63,7 +75,9 @@ sql-studies/
 
 </details>
 
-## Como executar
+<a id="como-executar"></a>
+
+![Como executar](assets/docs/section-04.svg)
 
 1. Clone o repositório:
    ```bash
