@@ -1,37 +1,33 @@
 <p align="center">
-  <img src="assets/banner-v2.png" alt="sql-studies" width="100%">
+  <img src="assets/identity/banner.png" alt="sql-studies" width="100%">
 </p>
 
 <p align="center">Scripts de estudo para criação de bases, projeções e filtros em bancos relacionais.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="SQL · Consultas · Estudos" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
----
+<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
 
 <a id="explore-o-projeto"></a>
 
-![Explore o projeto](assets/docs/section-01.svg)
+## Por onde começar
 
-![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-<table width="100%">
-<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
-<tr><td><strong>Base de dados</strong></td><td>Script para preparar os dados dos exercícios.</td><td><a href="database/create-databases.sql">Abrir base de dados →</a></td></tr>
-<tr><td><strong>Seleção</strong></td><td>Consultas com SELECT.</td><td><a href="01-basics/select.sql">Abrir seleção →</a></td></tr>
-<tr><td><strong>Condições</strong></td><td>Consultas com filtragem de registros.</td><td><a href="01-basics/where.sql">Abrir condições →</a></td></tr>
-</table>
+- **[Base de dados](database/create-databases.sql)** — Script para preparar os dados dos exercícios.
+- **[Seleção](01-basics/select.sql)** — Consultas com SELECT.
+- **[Condições](01-basics/where.sql)** — Consultas com filtragem de registros.
+
 
 <a id="visão-geral"></a>
 
-![Visão geral](assets/docs/section-02.svg)
+## Visão geral
 
 O repositório **SQL Studies** reúne exercícios práticos e scripts modulares criados para consolidar os fundamentos de consultas em bancos de dados relacionais. Cada operador ou cláusula possui seu próprio arquivo .sql, facilitando a revisão rápida de sintaxe, precedência de operadores e filtragem de registros.
 
 <a id="principais-tópicos-e-scripts"></a>
 
-![Principais tópicos e scripts](assets/docs/section-03.svg)
+## Principais tópicos e scripts
 
 | Script | Conceito praticado |
 |---|---|
@@ -61,7 +57,7 @@ flowchart LR
 ```text
 sql-studies/
 ├── assets/
-│   └── banner-v2.png               Banner do projeto
+│   └── identity/banner.png               Banner do projeto
 ├── database/
 │   └── create-databases.sql        Criação das tabelas e dados de exemplo
 ├── 01-basics/
@@ -78,7 +74,7 @@ sql-studies/
 
 <a id="como-executar"></a>
 
-![Como executar](assets/docs/section-04.svg)
+## Como executar
 
 1. Clone o repositório:
    ```bash
@@ -87,7 +83,7 @@ sql-studies/
 2. Execute database/create-databases.sql no seu cliente SQL (MySQL Workbench, DBeaver ou DataGrip) para preparar as tabelas.
 3. Abra qualquer arquivo de 01-basics/ para executar e testar as consultas individualmente.
 
----
+<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
 
 <p align="center">
   <a href="https://github.com/arthurlynow098">GitHub</a> &nbsp;·&nbsp;
